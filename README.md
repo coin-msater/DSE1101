@@ -5,7 +5,7 @@ A machine learning project to predict the resale price of HDB flats based on the
 
 2. Model Development:
  - Linear Regression (MLR): Multiple models were built, including models using the full data set, data set with reduced parameters and their log-transformed versions, and evaluated using RMSE.
- - Decision Trees: Decision tree models were developed using rpart() and tree() libraries, with pruning and cross-validation to improve accuracy.
+ - Decision Trees: Decision tree models were developed using rpart and tree libraries, with pruning and cross-validation to improve accuracy.
  - Principal Component Regression (PCR): Dimensionality reduction was applied, and models with varying numbers of components were created to optimize performance.
 
 3. Model Evaluation: All models were assessed on the test dataset using RMSE to compare their predictive accuracy.
