@@ -1,5 +1,11 @@
-# DSE1101 Project
+A machine learning project to predict the resale price of HDB flats based on their geographical, temporal, and structural properties was done as part of an introductory data science course, DSE1101 Data Science for Economics. 
 
-This project was completed as part of DSE1101: Data Science for Economics, an introductory course that covers the fundamentals of common machine learning methods and their applications in R. The course concluded with a project, where students selected one of four real-world datasets to develop predictive models using the techniques learned throughout the course.
+# Project Approach
+1. Exploratory Data Analysis: Relationships between key variables, such as flat type, storey range, remaining lease and resale price, were explored using boxplots and scatter plots to identify potential correlations and collinearity. Manual feature selection was done to shrink the large number of parameters.
 
-The techniques used 
+2. Model development:
+ - Linear Regression (MLR): Multiple models were built, including models using the full data set, data set with reduced parameters and their log-transformed versions, and evaluated using RMSE.
+ - Decision Trees: Decision tree models were developed using rpart() and tree() libraries, with pruning and cross-validation to improve accuracy.
+ - Principal Component Regression (PCR): Dimensionality reduction was applied, and models with varying numbers of components were created to optimize performance.
+
+3. Model Evaluation: All models were assessed on the test dataset using RMSE to compare their predictive accuracy.
